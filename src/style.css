@@ -1,0 +1,188 @@
+/* CSS of container*/
+
+h1 {
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 40px;
+  color: grey;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  color: grey;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+#current-city {
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 40px;
+  color: grey;
+  font-weight: 500;
+}
+
+#result {
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 30px;
+  color: grey;
+  font-weight: 300;
+}
+
+#current-date {
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 30px;
+  color: grey;
+  font-weight: 300;
+}
+
+.flex-container {
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 25px;
+  color: grey;
+  font-weight: 300;
+}
+
+.flex-item {
+  width: 25%;
+}
+
+.container {
+  margin-top: 30px;
+  max-width: 1000px;
+  background-color: #efefef;
+  padding: 80px;
+}
+
+.module {
+  margin-top: 30px;
+}
+
+.form-control.form-control-lg {
+  width: 600px;
+}
+.sunny {
+  margin-top: 20px;
+}
+
+/* CSS of ARROWS*/
+
+.fa-solid.fa-arrow-left {
+  color: #14ae5c;
+}
+
+.fa-solid.fa-arrow-left:hover {
+  transform: translateY(-2px);
+}
+
+.fa-solid.fa-arrow-right {
+  color: #14ae5c;
+}
+
+.fa-solid.fa-arrow-right:hover {
+  transform: translateY(-2px);
+}
+
+/* CSS of CITY BUTTON*/
+.citybutton-5 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.citybutton-5:hover,
+.citybutton-5:focus {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.citybutton-5:hover {
+  transform: translateY(-1px);
+}
+
+.citybutton-5:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+/* CSS ICON*/
+
+.fa-solid {
+  color: #fa6400;
+  font-size: 70px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.fa-cloud-rain {
+  color: #0094c0;
+}
+
+/* CSS Button Search*/
+
+.button-search {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #14ae5c;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-search:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
