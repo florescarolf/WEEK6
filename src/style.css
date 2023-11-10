@@ -40,6 +40,16 @@ h2 {
   font-weight: 300;
 }
 
+#intro {
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 20px;
+  color: grey;
+  font-weight: 300;
+  text-align: center;
+  
+}
+
 .flex-container {
   max-width: 900px;
   display: flex;
